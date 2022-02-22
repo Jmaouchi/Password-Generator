@@ -41,5 +41,14 @@ function generatePassword(length, hasLower, hasUpper, hasSymbole, hasNumber){
     pool += lowerChars;  //the += will add the value on the right to the variable on the left
   }
 
+  let result = "";
+  for(var i =0 ; i < length; i++){
+  let min = result.length;
+  let max = pool.length;
+  let randomIndex = Math.floor(Math.random() * (max - min) + min)
+     let newChar = pool.charAt(randomIndex);
+     result += newChar;
+}
 
+return result
 }
