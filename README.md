@@ -12,6 +12,10 @@
 * CSS
 * JavaScript
 
+# link to the live application
+
+https://jmaouchi.github.io/Password-Generator/
+
 ## Contribution
 Made by [Jugurta Maouchi]  2022.
 
